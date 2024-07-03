@@ -1,0 +1,20 @@
+{
+  "name": "xcm-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "dependencies": {
+    "@oak-network/api-augment": "^2.1.1",
+    "@oak-network/types": "^2.1.1",
+    "@polkadot/api": "^12.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  }
+}
